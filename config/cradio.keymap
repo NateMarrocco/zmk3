@@ -40,7 +40,7 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp F15      &kp F16    &kp O      &kp F17
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ' "      │
-     &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4    &kp G          &kp H      HRMR(J,        K,         L,       I)
+     &ht LSHFT A  &ht LALT S  &ht LCTRL D  &ht LGUI F    &kp G          &kp H      HRMR(J,        K,         L,       I)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp U    &kp DOT    &kp P
