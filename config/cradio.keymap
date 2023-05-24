@@ -71,7 +71,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-           &trans     &kp LBKT   &kp LBRC   &kp RBRC  &kp F19        &kp  LA(TAB) &kp F17   &kp F18   &kp RBKT   &kp trans
+           &trans     &kp LBKT   &kp LBRC   &kp RBRC  &kp F19        &kp  LA(TAB)  &kp F17   &kp F18   &kp RBKT   &kp trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp F20     &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
