@@ -40,12 +40,12 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J    &kp F15      &kp F16    &kp Y     &kp DOT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  R      │  S        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-     &ht LSHFT A  &ht LALT R  &ht LCTRL S  &ht LGUI T    &kp G          &kp M      HRMR(N,        E,         I,       O)
+     &ht LSHFT A  &ht LALT R  &ht LCTRL S  &ht LGUI T    &kp G          &kp M      &kp N       &lt 1 E    RCTRL k2 I  &ht RSHFT O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K      │  H        │    L     │    U     │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp L     &kp U    &kp P
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 2 SPACE   &lt 3 ENTER    &lt 1 BSPC  &kp LC(C)
+                                            &lt 2 SPACE   &lt 1 ENTER             &lt 1 LC(C)
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -53,8 +53,8 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3    &kp LC(LS(Z))     &kp HOME   &kp PG_DN  &kp PG_UP  &kp FSLH    &kp COLON
+        //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
+            &kp INS    &kp N1     &kp N2     &kp N3    &kp LC(LS(Z))     &kp BSPC   &kp PG_DN  &kp PG_UP  &kp FSLH    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &kp LC(Z)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
@@ -62,7 +62,7 @@
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &kp ESC        &trans     &kp LC(V)
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
