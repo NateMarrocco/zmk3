@@ -37,7 +37,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    B            J      │         │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J    &kp F15      &kp F16    &kp Y     &kp DOT
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J    &kp F15      &kp F16    &kp Y     &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
      &ht LSHFT A      &kp S     &kp R         &kp T      &kp G          &kp M     &kp N    &lt 1 E   &ht RCTRL I  &ht RSHFT O
@@ -54,7 +54,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3    &kp LC(LS(Z))     &kp BSPC   &kp PG_DN  &kp PG_UP  &kp FSLH    &kp COLON
+            &kp INS    &kp N1     &kp N2     &kp N3    &kp LC(LS(Z))     &kp BSPC   &kp PG_DN  &kp PG_UP     &kp DOT   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &kp LC(Z)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
@@ -62,22 +62,22 @@
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &kp ESC
+                                             &kp FSLH   &kp ESC        &trans     &kp ESC
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
-
+       
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
+        //│          │  [       │  {       │  }       │          │   │  alt tab  │         │           │  ]       │  ~       │
             &trans     &kp LBKT   &kp LBRC   &kp RBRC   &kp F19         &kp  LA(TAB) &kp F17  &kp F18  &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp F20      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
+        //│  !       │  @       │  #       │  $       │  %       │   │  !       │  .       │         │  \       │  `       │
+            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp F20       &kp EXCL  &kp DOT    &kp QMARK  &kp BSLH   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &trans     &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &kp CARET
+           &kp ASTRK  &kp MINUS  &kp EQUAL  &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &kp CARET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &kp LC(V)
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
