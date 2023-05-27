@@ -37,7 +37,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    B            J      │         │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J    &kp F15      &kp F16    &kp Y     &kp BSPC
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J        &kp Y         &kp F15    &kp F16   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
      &ht LSHFT A      &kp S     &kp R         &kp T      &kp G          &kp M     &kp N    &lt 1 E   &ht RCTRL I  &ht RSHFT O
