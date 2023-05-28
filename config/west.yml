@@ -10,4 +10,4 @@
       revision: main
       import: app/west.yml
   self:
-      path: configttt
+      path: config
