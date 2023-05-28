@@ -55,10 +55,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3    &kp LC(LS(Z))     &kp BSPC  &trans    &kp PG_DN  &kp PG_UP   &kp COLON
+            &kp INS    &kp N1     &kp N2     &kp N3    &trans     &kp BSPC   &kp LC(Z)    &kp PG_DN  &kp PG_UP   &kp LC(LS(Z))
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp DEL    &kp N4     &kp N5     &kp N6     &kp LC(Z)         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
+            &kp DEL    &kp N4     &kp N5     &kp N6     &kp COLON        &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
