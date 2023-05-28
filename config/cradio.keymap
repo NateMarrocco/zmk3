@@ -93,7 +93,7 @@
            &trans       &trans     &kp F18   &kp F15    &trans         &trans     &kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-           &trans       &kp F13     &kp F17     &kp F14    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
+           &trans       &kp F13  &kp SCROLL_DOWN  &kp F14    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &trans    &trans       &trans          &trans     &trans     &trans     &trans     &trans
