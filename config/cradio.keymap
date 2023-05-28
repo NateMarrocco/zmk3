@@ -90,10 +90,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans     &kp SCROLL_UP   &kp F15    &trans         &trans     &kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
+           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans         &trans     &kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-           &trans   &kp SCROLL_LEFT &kp SCROLL_DOWN  &kp SCROLL_RIGHT    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
+           &trans   &mwh SCROLL_LEFT &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &trans    &trans       &trans          &trans     &trans     &trans     &trans     &trans
