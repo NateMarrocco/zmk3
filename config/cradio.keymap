@@ -90,7 +90,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans    &kp AMPS  z&kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
+           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans    &kp AMPS  &kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
            &trans   &mwh SCROLL_LEFT &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
