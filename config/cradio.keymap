@@ -29,7 +29,7 @@
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <3>
         };
     };
 
@@ -39,7 +39,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    B            J      │     L    │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J        &kp L         &kp F15    &kp F16   &kp BSPC
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J       &mkp LCLK    &mkp RCLK   &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
      &hm_shift_l LSHFT A      &kp S     &kp R         &kp T      &kp G          &kp M     &kp N    &lt 1 E   &hm_r RCTRL I  &hm_shift_r RSHFT O
