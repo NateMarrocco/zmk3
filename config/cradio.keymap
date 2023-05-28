@@ -73,7 +73,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │   │  alt tab  │         │           │  ]       │  ~       │
-            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &kp F19         &kp  LA(TAB)   &kp F17  &kp F18 &trans &kp FSLASH
+            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &kp F19         &kp  LA(TAB)   &kp F17  &kp F18 &trans &kp SLASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  !       │  .       │         │  \       │  `       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp F20       &kp EXCL  &kp DOT    &kp QMARK  &kp BSLH   &kp GRAVE
