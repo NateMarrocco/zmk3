@@ -25,13 +25,13 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    //conditional_layers {
+      //   compatible = "zmk,conditional-layers";
+       //  tri_layer {
+        //     if-layers = <1 2>;
+         //    then-layer = <3>;
+       //  };
+   //  };
 
     keymap {
         compatible = "zmk,keymap";
@@ -73,7 +73,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │   │  alt tab  │         │           │  ]       │  ~       │
-            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &kp F19         &kp  LA(TAB)   &kp F17  &kp F18 &trans &kp F
+            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &kp F19         &kp  LA(TAB)   &kp F17  &kp F18 &trans &kp FSLASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  !       │  .       │         │  \       │  `       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp F20       &kp EXCL  &kp DOT    &kp QMARK  &kp BSLH   &kp GRAVE
@@ -90,7 +90,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans         &trans     &kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
+           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans    &kp AMPS  z&kp LC(C)  &kp LC(C)  &kp LC(V)   &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
            &trans   &mwh SCROLL_LEFT &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT    &trans          &trans     &kp F16     &kp F17    &trans    &trans 
