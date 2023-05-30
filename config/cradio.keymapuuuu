@@ -66,7 +66,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-             &F22     &F22     &kp F19     &kp LS(LC(Z))  &mkp RCLK       &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
+             &F22     &F22     &kp F19     &kp LC(Z)  &mkp RCLK       &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
              &F22       &F22     &kp F20      &kp LC(C)  &kp LC(V)        &kp N0   &kp F18 &trans       &kp SEMI &trans
