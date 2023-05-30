@@ -29,7 +29,7 @@
 	    label = "NUM_WORD";
 	    #binding-cells = <0>;
             layers = <1>;                                // insert location of numbers layer here
-	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V>;  // adjust as desired
+	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z PLUS MINUS SLASH EQUAL>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 	};
 
@@ -49,7 +49,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    B            J      │     L    │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J       &mkp LCLK  &kp U     &kp L   &kp BSPC
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J     &mkp LCLK  &kp U     &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
      &hm_shift_l LSHFT A  &kp S     &kp R      &kp T      &kp G          &kp M     &kp N    &lt 1 E   &hm_r RCTRL I  &hm_shift_r RSHFT O
@@ -66,10 +66,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-            &kp N1     &kp N2     &kp N3      &kp N4    &kp N5           &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(C)   &kp LC(V)
+            &kp N1     &kp N2     &kp N3      &kp N4    &kp N5         &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(C)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp N6      &kp N7     &kp N8    &kp N9      &kp N0       &mkp RCLK  &kp F18    &kp LC(Z)     &kp RARW   &kp SEMI
+            &kp N6      &kp N7     &kp N8    &kp N9      &kp N0       &mkp RCLK  &kp F18    &kp LC(Z)    &kp LC(V)   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
               &kp PLUS &kp MINUS  &kp SLASH  &trans     &kp EQUAL      &kp DOT    &trans     &trans     &trans     &trans
