@@ -100,7 +100,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans     &kp LC(Z)  &kp LPAR   &kp RPAR   &kp DQT  &kp COMMAu
+           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans     &kp LC(Z)  &kp LPAR   &kp RPAR   &kp DQT  &kp COMMA
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER
 	&trans &mwh SCROLL_LEFT &kp LBKT    &kp RBKT   &trans           &trans     &kp F16     &kp F17    &trans   &trans 
