@@ -69,7 +69,7 @@
              &F22     &F22     &kp F19     &kp LC(Z)  &mkp RCLK       &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-             &F22       &F22     &kp F20      &kp LC(C)  &kp LC(V)        &kp N0   &kp F18 &trans       &kp SEMI &trans
+            &kp  LA(TAB)    &F22     &kp F20      &kp LC(C)  &kp LC(V)        &kp N0   &kp F18 &trans       &kp SEMI &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
                &F22  &F22   &F22   &F22    &kp LC(F)     &kp DOT             &F22      &F22     &F22     &F22      &F22
@@ -100,7 +100,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans     &kp LC(Z)  &kp LC(C)   &kp LC(V)   &trans  &trans
+           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans     &kp LC(Z)  &kp LPAR   &kp RPAR   &trans  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER
 	&trans &mwh SCROLL_LEFT &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT   &trans  &trans     &kp F16     &kp F17    &trans   &trans 
