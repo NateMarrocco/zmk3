@@ -29,7 +29,7 @@
 	    label = "NUM_WORD";
 	    #binding-cells = <0>;
             layers = <1>;                                // insert location of numbers layer here
-	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z PLUS MINUS SLASH EQUAL STAR>;  // adjust as desired
+	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z F19 F20 SPACE>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 	};
 
@@ -66,13 +66,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-             &trans  &trans    &kp F19      &trans    &mkp RCLK       &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
+             &F22     &F22     &kp F19     &kp LS(LC(Z))  &mkp RCLK       &kp F17     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &trans      &trans     &kp F20      &kp LC(C)  &kp LC(V)        &kp N0   &kp F18 &trans       &kp SEMI &trans
+             &F22       &F22     &kp F20      &kp LC(C)  &kp LC(V)        &kp N0   &kp F18 &trans       &kp SEMI &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL      &kp DOT    &trans     &trans     &trans     &trans
+               &F22  &F22   &F22   &F22    &kp LC(F)     &kp DOT             &F22      &F22     &F22     &F22      &F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans   &kp ESC     &trans     &kp ESC
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
