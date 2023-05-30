@@ -29,7 +29,7 @@
 	    label = "NUM_WORD";
 	    #binding-cells = <0>;
             layers = <2>;                                // insert location of numbers layer here
-	    continue-list = <BACKSPACE DELETE DOT COMMA>;  // adjust as desired
+	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 	};
 
@@ -66,7 +66,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ BSPC     │ PAGE DN  │ PAGE UP  │ /        │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3    &mkp LCLK     &kp BSPC   &kp LC(Z)    &kp PG_DN  &kp PG_UP   &kp LC(LS(Z))
+            &kp INS    &kp N1     &kp N2     &kp N3    &mkp LCLK     &kp LC(C)   &trans    &trans  &mkp MCLK  &kp LC(V)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &kp COLON        &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
