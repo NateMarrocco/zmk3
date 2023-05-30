@@ -29,7 +29,7 @@
 	    label = "NUM_WORD";
 	    #binding-cells = <0>;
             layers = <1>;                                // insert location of numbers layer here
-	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z PLUS MINUS SLASH EQUAL>;  // adjust as desired
+	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z PLUS MINUS SLASH EQUAL STAR>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 	};
 
@@ -72,9 +72,9 @@
             &kp N6      &kp N7     &kp N8    &kp N9      &kp N0       &mkp RCLK  &kp F18    &kp LC(Z)    &kp LC(V)   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-              &kp PLUS &kp MINUS  &kp SLASH  &trans     &kp EQUAL      &kp DOT    &trans     &trans     &trans     &trans
+              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL      &kp DOT    &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp FSLH   &kp ESC        &trans     &kp ESC
+                                             &kp FSLH   &kp ESC     &trans     &kp ESC
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -89,7 +89,7 @@
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp F20       &kp EXCL  &kp DOT    &kp QMARK  &kp BSLH   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-           &kp ASTRK     &kp COLON    &trans                 &kp AMPS   &kp UNDER  &caps_word  &kp PIPE  &kp CARET
+           &trans     &kp COLON    &trans       &trasn      &kp AMPS   &kp UNDER  &caps_word  &kp PIPE  &kp CARET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &kp LC(V)
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
