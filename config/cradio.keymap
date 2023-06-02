@@ -88,9 +88,9 @@
            &kp LSHIFT  &kp  LA(TAB)   &kp F20   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp F22     &kp F22   &kp F22     &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
+            &kp F22     &kp F22   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp F10   &kp ESC     &trans      &toggleoff
+                                             &kp F10    &kp ENTER     &trans      &toggleoff
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
