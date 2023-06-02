@@ -85,7 +85,7 @@
              &kp LT     &kp GT     &kp F19     &kp LC(Z)  &mkp RCLK       &kp F18     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-          &kp  LA(TAB)  &kp F22   &kp F20    &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
+           &kp LS  &kp  LA(TAB)   &kp F20    &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp F22     &kp F22   &kp F22    &kp LC(F)   &kp DOT     &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
