@@ -88,9 +88,9 @@
            &kp LSHIFT  &kp  LA(TAB)   &kp F20   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp F22     &kp F22   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
+            &kp F22     &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp F10    &kp ENTER     &trans      &toggleoff
+                                             &trans    &kp ENTER     &trans      &toggleoff
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -105,7 +105,7 @@
              &kp N6      &kp N7     &kp N8    &kp N9      &kp N0      &kp EXCL  &kp DOT    &kp QMARK    &kp COMMA &kp UNDER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-            &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH 
+            &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &kp ESC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
