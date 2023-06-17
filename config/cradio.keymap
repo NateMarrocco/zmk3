@@ -73,7 +73,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp SPACE &lt 2 ENTER   &toggle &kp RSHIFT  
+                                            &kp SPACE &lt 2 ENTER    RSHIFT &toggle &kp 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -90,7 +90,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F11      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &kp LSHIFT &kp ENTER       &toggleoff   &kp P 
+                                              &kp LSHIFT &kp ENTER    &kp P   &toggleoff    
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
