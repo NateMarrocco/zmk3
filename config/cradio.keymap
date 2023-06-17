@@ -65,15 +65,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J     &mkp LCLK  &kp U     &kp L   &kp BSPC
+            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U  &kp Y    &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-     &hm_shift_l LSHFT A  &kp S     &kp R      &kp T      &kp G          &kp M     &kp N    &lt 1 E   &hm_r RCTRL I  &hm_shift_r RSHFT O
+     &kp A  &kp S     &kp R      &kp T      &kp G          &kp M     &kp N    &lt 1 E   &kp I  &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H       &kp Y    &kp P       &kp DOT
+            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp CTRL     &lt 3 TAB
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 2 SPACE &lt 3 ENTER   &lt 1 F20 &kp P  
+                                            &kp SPACE &lt 2 ENTER   &lt 1 F24 &kp SHIFT  
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -88,7 +88,7 @@
            &kp LSHIFT  &kp  LA(TAB)   &kp F21   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp F22     &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
+            &kp F22     &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F11      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &trans &kp ENTER       &trans     &kp P 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
