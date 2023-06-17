@@ -85,10 +85,10 @@
              &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-           &kp DQT    &kp QMARK    &kp F21   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
+            &kp LPAR   &kp RPAR    &kp QMARK   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp F22     &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F11      &kp F22
+            &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F11      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &trans &kp ENTER       &trans     &kp P 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
