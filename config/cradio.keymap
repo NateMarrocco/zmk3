@@ -25,6 +25,20 @@
             #binding-cells = <0>;
             bindings = <&macro_press &to 0>, <&macro_tap &kp F23>, <&macro_pause_for_release>, <&macro_release &to 0>;
         };
+         macros {
+        toggle: togglegame {
+            label = "togglegame";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &to 3>, <&macro_tap &kp F9>, <&macro_pause_for_release>, <&macro_release &to 3>;
+        };
+
+        toggleoff: togglegameoff {
+            label = "togglegameoff";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &to 0>, <&macro_tap &kp F8>, <&macro_pause_for_release>, <&macro_release &to 0>;
+        };
     };
     behaviors {
         ht: hold_tap {
@@ -42,7 +56,7 @@
 	    compatible = "zmk,behavior-caps-word";
 	    label = "NUM_WORD";
 	    #binding-cells = <0>;
-            layers = <1>;                                // insert location of numbers layer here
+            layers = <3>;                                // insert location of numbers layer here
 	    continue-list = <BACKSPACE DELETE DOT COMMA MCLK LCLK RCLK C V F18 F17 Z F19 F20 SPACE>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 	   
@@ -64,18 +78,18 @@
         default_layer {
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │
-        //     &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
+           &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
 
-              &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F18 &mkp LCLK &mkp MCLK  &kp F19    &kp BSPC 
+          //      &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F18 &mkp LCLK &mkp MCLK  &kp F19    &kp BSPC 
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-         //&kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
-         &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F20    &kp SPACE                     
+         &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
+        // &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F20    &kp SPACE                     
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-         //   &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &lt 3 ENTER 
-              &kp F22   &kp F15    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F7      &kp F16     &kp F21    &kp LSHIFT
+          &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &lt 3 ENTER 
+         //       &kp F22   &kp F15    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F7      &kp F16     &kp F21    &togglegame
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &toggle &lt 2 TAB   &kp ENTER   &kp SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
@@ -93,7 +107,7 @@
            &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
+            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                            &toggleoff  &lt 2 TAB   &lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -119,17 +133,17 @@
 
         tri_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans       &trans    &mwh SCROLL_UP   &kp F15    &trans    &trans &trans   &trans  &trans  
+                  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
+        //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
+            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &mkp LCLK  &mkp RCLK    &kp L   &kp BSPC
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
+        //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
+           &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER
-	&trans &mwh SCROLL_LEFT &kp LBKT    &kp RBKT   &trans           &trans     &kp F16     &kp F17    &trans   &trans 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR    &trans          &trans     &trans     &trans     &trans     &trans
+        //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
+            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
+                                          &kp ,  &kp ESC 		&lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
