@@ -73,7 +73,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp SPACE  &kp RSHIFT   &lt 2 ENTER     &toggle  
+                                             &toggle &kp RSHIFT   &lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -82,15 +82,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │
-             &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F20   &kp F19
+             &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-            &kp LPAR   &kp RPAR    &kp QMARK   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &kp SPACE
+            &kp LPAR   &kp RPAR    &kp QMARK   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &lt 3 ENTER 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp SPACE  &kp LSHIFT    &kp ENTER &toggleoff    
+                                            &toggleoff  &kp LSHIFT    &kp ENTER   &kp SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -107,7 +107,7 @@
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &kp ESC
+                                             &trans     &trans         &trans      &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
