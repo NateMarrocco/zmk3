@@ -66,16 +66,16 @@
         //│           │         │         │         │          │         │      │           │          │         │         │
         //     &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
 
-              &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F18 &mkp LCLK &mkp MCLK  &kp F7    &kp BSPC 
+              &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F18 &mkp LCLK &mkp MCLK  &kp F19    &kp BSPC 
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
          //&kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
-         &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F16    &kp SPACE                     
+         &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F20    &kp SPACE                     
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          //   &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &lt 3 ENTER 
-              &kp DQT   &kp F10    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F19      &kp F20     &kp F21    &kp LSHIFT
+              &kp 22   &kp F15    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F7      &kp F16     &kp F21    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &toggle &lt 2 TAB   &kp ENTER   &kp SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
