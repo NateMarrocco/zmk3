@@ -67,7 +67,7 @@
              &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-            &kp LPAR   &kp RPAR    &kp QMARK   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
+            &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20    &kp SPACE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &lt 3 ENTER 
