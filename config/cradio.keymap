@@ -71,9 +71,9 @@
      &kp A  &kp S     &kp R      &kp T      &kp G          &kp M     &kp N    &lt 1 E   &kp I  &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp CTRL     &lt 3 TAB
+            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp SPACE &lt 2 ENTER   &lt 1 F24 &kp SHIFT  
+                                            &kp SPACE &lt 2 ENTER   &lt 1 F24 &kp RSHIFT  
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
