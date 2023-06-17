@@ -82,10 +82,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │
-             &kp LT     &kp GT     &kp F19    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
+             &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp LC(Z)   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
-           &kp LSHIFT  &kp  LA(TAB)   &kp F20   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
+           &kp LSHIFT  &kp  LA(TAB)   &kp F21   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp SEMI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp F22     &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F22      &kp F22
@@ -99,7 +99,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │         │         │         │          │   │     │         │           │         │        │
-             &kp N1     &kp N2     &kp N3      &kp N4    &kp N5          &kp  LA(TAB)   &kp AT &kp HASH    &kp SLASH &kp DLLR
+             &kp N1     &kp N2     &kp N3      &kp N4    &kp N5         &kp HASH  &kp F20   &kp F19      &kp SLASH &kp DLLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│         │         │         │        │            │         │         │         │         │         │
              &kp N6      &kp N7     &kp N8    &kp N9      &kp N0      &kp EXCL  &kp DOT    &kp QMARK    &kp COMMA &kp UNDER
