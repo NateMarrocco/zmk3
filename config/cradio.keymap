@@ -68,7 +68,7 @@
             &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U  &kp Y    &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-     &kp A  &kp S     &kp R      &kp T      &kp G          &kp M     &kp N    &lt 1 E   &kp I  &kp O
+           &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
@@ -90,7 +90,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp DQT    &kp F10   &kp ESC    &mkp RCLK &kp LC(F)      &kp F22      &kp F22     &kp F22     &kp F11      &kp F22
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &trans &kp ENTER       &trans     &kp P 
+                                              &kp LSHIFT &kp ENTER       &trans     &kp P 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
             >;
         };
