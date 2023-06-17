@@ -73,7 +73,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &lt 3 TAB
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp SPACE &lt 2 ENTER    RSHIFT &toggle &kp 
+                                            &kp SPACE &lt 2 ENTER    &kp RSHIFT &toggle  
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
