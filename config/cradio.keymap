@@ -88,7 +88,7 @@
          &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F20    &kp SPACE                     
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-         // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11    &togglegame 
+         // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     &lt 3 COMMA 
              &kp LSHIFT      &kp F15    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F7      &kp F16     &kp F21   
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &toggle &lt 2 TAB   &ht LSHIFT ENTER   &kp SPACE
@@ -135,10 +135,10 @@
             bindings = <
                   //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &mkp LCLK  &mkp RCLK    &kp L   &kp BSPC
+            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp LBRC  &kp RBRC   &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-           &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &kp N      &kp E       &kp I     &kp O
+           &kp A      &kp S     &kp LBRC     &kp RBRC      &kp A          &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
