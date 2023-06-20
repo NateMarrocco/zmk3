@@ -122,12 +122,12 @@
              &kp N1     &kp N2     &kp N3      &kp N4    &kp N5         &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH &kp DLLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│         │         │         │        │            │         │         │         │         │         │
-             &kp N6      &kp N7     &kp N8    &kp N9      &kp N0      &kp EXCL  &kp DOT  &kp  LA(TAB)    &kp COMMA &kp UNDER
+             &kp N6      &kp N7     &kp N8    &kp N9      &kp N0      &kp EXCL  &kp DOT   &kp QMARK    &kp COMMA &kp UNDER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans      &kp SEMI
+                                             &trans     &trans         &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
