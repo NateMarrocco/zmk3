@@ -92,7 +92,7 @@
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     
              &kp LSHIFT      &kp Z    &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &toggle &lt 2 TAB   &ht LSHIFT ENTER  &lt 3 SPACE
+                                &lt 3 SPACE    &lt 2 ENTER      &kp LSHIFT &toggle 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -110,7 +110,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &toggleoff  &lt 2 TAB   &lt 2 ENTER    &kp SPACE   
+                                           &kp SPACE   &lt 2 ENTER  &kp LSHIFT  &toggleoff      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
