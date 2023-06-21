@@ -79,7 +79,7 @@
         default_layer {
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │
-        //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK  &kp F19   &kp BSPC 
+        //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &kp X  &kp F19   &kp BSPC 
 
            &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F6 &mkp LCLK &mkp MCLK  &kp F19    &kp BSPC 
         
