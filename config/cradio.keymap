@@ -90,7 +90,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     
-             &kp LSHIFT      &kp S    &kp ESC    &mkp RCLK &kp F        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
+             &kp LSHIFT      &kp Z    &kp ESC    &mkp RCLK &kp F        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &toggle &lt 2 TAB   &ht LSHIFT ENTER  &lt 3 SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
