@@ -86,11 +86,11 @@
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20   &kp UNDER
-         &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp F13      &kp F17     &kp F15   &kp F20    &kp SPACE                     
+         &kp F8      &kp F9     &kp F10     &kp F11    &kp F12        &kp R     &kp F17     &kp A   &kp F20    &kp SPACE                     
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     
-             &kp LSHIFT      &kp F15    &kp ESC    &mkp RCLK &kp F16        &kp F14   &kp F7      &kp F16     &kp F21    &lt 3 COMMA
+             &kp LSHIFT      &kp S    &kp ESC    &mkp RCLK &kp F        &kp Q   &kp F7      &kp P     &kp G    &lt 3 COMMA
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &toggle &lt 2 TAB   &ht LSHIFT ENTER   &kp SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
