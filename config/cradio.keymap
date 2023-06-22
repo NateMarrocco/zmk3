@@ -81,7 +81,7 @@
         //│           │         │         │         │          │         │      │           │          │         │         │
         //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MB4   &kp F19   &kp BSPC 
 
-           &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F6 &mkp LCLK &mkp MCLK   &kp F19    &kp BSPC 
+           &kp F1   &kp F2     &kp F3      &kp F4      &kp F5             &kp F6 &mkp LCLK &mkp MB4   &kp F19    &kp BSPC 
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
@@ -92,7 +92,7 @@
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     
              &kp LSHIFT      &kp Z    &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                &lt 3 SPACE    &lt 2 ENTER      &kp LSHIFT &toggle 
+                                &lt 3 SPACE    &lt 2 ENTER      &mkp MCLK &toggle 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
