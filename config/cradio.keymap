@@ -86,7 +86,7 @@
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20   &kp UNDER
-         &kp F8      &kp F9     &kp F10     &kp F11    &mkp MB3        &kp R     &kp F7     &kp A   &kp F20    &kp SPACE                     
+         &kp F8      &kp F9     &kp F10     &kp F11    &mkp MB5        &kp R     &kp F7     &kp A   &kp F20    &kp SPACE                     
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11     
