@@ -95,7 +95,7 @@
          &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z     &kp LSHIFT
            
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                &lt 3 SPACE    &lt 2 ENTER      &mkp MCLK   &kp LSHIFT 
+                                &lt 1 SPACE    &lt 2 ENTER      &lt 3   &lt 3 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -122,13 +122,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │         │         │         │          │   │     │         │         │         │        │
-             &kp N1     &kp N2     &kp N3      &kp N4    &kp N5         &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH &kp DLLR
+            &kp R &kp T &kp R &kp R &kp R                            &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH &kp DLLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│         │         │         │        │            │         │         │         │         │         │
-             &kp N6      &kp N7     &kp N8    &kp N9      &kp N0      &kp EXCL  &kp DOT   &kp QMARK    &kp COMMA &kp UNDER
+           &kp A      &kp S     &kp LBRC     &kp RBRC      &kp A       &kp EXCL  &kp DOT   &kp QMARK    &kp COMMA &kp UNDER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-            &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
+           &kp Z      &kp X      &kp C      &kp D      &kp V           &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -139,13 +139,13 @@
             bindings = <
          //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp LBRC  &kp RBRC   &kp L   &kp BSPC
+              &kp N1     &kp N2     &kp N3      &kp N4    &kp N5       &kp J      &kp LBRC  &kp RBRC   &kp L   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-           &kp A      &kp S     &kp LBRC     &kp RBRC      &kp A          &kp M         &kp N      &kp E       &kp I     &kp O
+              &kp N6      &kp N7     &kp N8    &kp N9      &kp N0        &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
+             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                           &toggle  &kp ESC 		&lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
