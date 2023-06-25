@@ -113,7 +113,7 @@
            &kp F8      &kp F9     &kp F10     &kp F11    &mkp MB5        &kp F20 &kp F7  &kp DOT      &kp A      &kp SPACE          
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &toggle      &mkp MCLK     &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
+            &kp  LA(TAB)    &mkp MCLK     &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                            &kp SPACE   &lt 2 ENTER  &kp LSHIFT     &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -149,7 +149,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                          &toggle  &kp ESC 		&lt 2 ENTER    &kp SPACE   
+                                          &kp DOT  &kp ESC 		&lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
