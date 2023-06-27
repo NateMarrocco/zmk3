@@ -107,10 +107,10 @@
             bindings = <
               //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp F1   &kp F2     &kp F3      &kp F4      &kp F5            &kp F19 &kp F6 &mkp LCLK &mkp MCLK       &kp BSPC 
+            &kp F1   &kp F2     &kp F3      &kp F4      &kp F5            &kp F19 &kp F6 &mkp MCLK &kp F7      &kp BSPC 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-           &kp F8      &kp F9     &kp F10     &kp F11    &mkp MB5        &kp F20 &kp F7  &kp DOT      &kp A      &kp SPACE          
+           &kp F8      &kp F9     &kp F10     &kp F11   &kp F7         &kp F20   &kp DOT   &kp A &kp A      &kp SPACE          
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &mkp MCLK     &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
