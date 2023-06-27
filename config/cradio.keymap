@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The ZMK Contributors
+ // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
@@ -94,10 +94,10 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &ht Z LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp SPACE     &kp LSHIFT
+         &ht Z LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp SPACE     &ht ENTER LSHIFT
            
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &lt 2 ENTER  &lt 1 SPACE       &lt 3 A  &lt 3 A
+                                     &kp SPACE &lt 1 ENTER         &lt 3 A  &lt 3 A
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
