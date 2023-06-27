@@ -124,10 +124,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │         │         │         │          │   │     │         │         │         │        │
-            &kp HASH  &kp LPAR  &kp RPAR   &kp R  &kp LBRC            &kp RBRC   &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH
+            &kp HASH  &kp AT &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp SINGLE_QUOTE           &kp RBRC   &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│         │         │         │        │            │         │         │         │         │         │
-           &kp EXCL      &kp COMMA   &kp DOT   &kp QMARK   &kp EXCL     &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
+          &kp LPAR  &kp RPAR   &kp LBRC    &kp RBRC   &kp DQT     &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
             &kp BSLH     &kp CARET    &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
