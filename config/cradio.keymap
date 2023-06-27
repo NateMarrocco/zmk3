@@ -97,7 +97,7 @@
          &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z &kp LSHIFT
            
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER         &lt 3 A  &lt 2 A
+                                     &kp SPACE &lt 1 ENTER         &lt 3 DOT  &lt 2 QMARK
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -124,15 +124,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │         │         │         │          │   │     │         │         │         │        │
-            &kp R &kp T &kp R &kp R &kp R                            &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH &kp DLLR
+            &kp HASH  &kp LPAR  &kp RPAR   &kp R  &kp LBRC            &kp RBRC   &kp HASH   &kp LPAR   &kp RPAR    &kp SLASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│         │         │         │        │            │         │         │         │         │         │
-           &kp A      &kp S     &kp LBRC     &kp RBRC      &kp A       &kp EXCL  &kp DOT   &kp QMARK    &kp COMMA &kp UNDER
+           &kp EXCL      &kp COMMA   &kp DOT   &kp QMARK   &kp EXCL     &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-           &kp Z      &kp X      &kp C      &kp D      &kp V           &kp AMPS   &kp PIPE  &kp CARET   &kp BSLH &kp COLON
+            &kp BSLH     &kp CARET    &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &kp  LA(TAB)  &kp SEMI
+                                             &kp COLON     &kp SEMI     &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
