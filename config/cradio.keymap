@@ -97,7 +97,7 @@
          &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z &kp LSHIFT
            
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER         &lt 3 DOT  &lt 2 QMARK
+                                     &kp SPACE &lt 1 ENTER         &lt 2 DOT  &lt 3 QMARK
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
