@@ -97,7 +97,7 @@
          &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z &kp LSHIFT
            
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER         &lt 3 A  &lt 3 A
+                                     &kp SPACE &lt 1 ENTER         &lt 3 A  &lt 2 A
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -107,10 +107,10 @@
             bindings = <
               //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp LT   &kp GT    &kp F3      &kp F4      &kp F5            &kp F19 &kp F6 &mkp MCLK &kp F7      &kp BSPC 
+            &kp LT   &kp GT    &kp F3      &kp F4      &kp F5            &kp F19 &kp F6 &mkp MCLK &kp F7      &kp F2 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-           &kp F8      &kp F9     &kp F10     &kp F11   &kp F1         &kp F20   &kp DOT   &kp A &kp A      &kp SPACE          
+           &kp F8      &kp F9     &kp F10     &kp F11   &kp F1         &kp F20   &kp DOT   &kp EXCL &kp QMARK   &kp COMMA         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &mkp MCLK     &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
