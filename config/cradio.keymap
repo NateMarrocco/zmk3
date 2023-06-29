@@ -79,22 +79,22 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭───────c───┬──────────┬──────────┬──────────┬──────────╮
+            bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │aa
         //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19    
-          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &mkp LCLK    &kp L   &kp SPACE 
+          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &mkp LCLK    &kp L   &kp BSPC
           
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp F17     &trans   &kp F20   &kp UNDER
-          &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &kp N      &kp E       &kp I     &kp O
+          &kp A      &kp S     &kp R      &kp T      &kp G          &kp M         &sl 4      &kp E       &kp I     &kp O
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z     &kp BSPC      
+         &sk LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z   &kp SPACE    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &kp SPACE &lt 1 ENTER         &lt 2 CAPSLOCK  &lt 3 SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
@@ -144,6 +144,22 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
               &kp N6      &kp N7     &kp N8    &kp N9      &kp N0        &kp M         &kp N      &kp E       &kp I     &kp O
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
+             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                          &kp DOT  &kp ESC 		&lt 2 ENTER    &kp SPACE   
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+        quad_layer {
+            bindings = <
+         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
+        //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
+              &kp N1     &kp N2     &kp N3      &kp N4    &kp N5       &kp J      &kp LBRC  &kp RBRC   &kp L   &kp BSPC
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
+        //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
+              &kp Y      &kp H     &kp SPACE    &kp N      &kp Z        &kp SPACE   &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
