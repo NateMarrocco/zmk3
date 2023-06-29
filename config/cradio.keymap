@@ -81,8 +81,8 @@
         default_layer {
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭───────c───┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │aa
-        //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19   &kp BSPC 
-          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &mkp LCLK    &kp L   &kp BSPC
+        //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19    
+          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &mkp LCLK    &kp L   &kp SPACE 
           
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
@@ -94,7 +94,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z &kp SPACE           
+         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z     &kp BSPC      
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &kp SPACE &lt 1 ENTER         &lt 2 CAPSLOCK  &lt 3 SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
@@ -109,12 +109,12 @@
             &kp LT   &kp GT    &kp F3      &kp F4      &kp F5            &kp F19 &kp F6 &mkp MCLK &kp F7      &kp F2 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-           &kp F8      &kp F9     &kp F10     &kp F11   &kp F1         &kp F20   &kp DOT   &kp EXCL &kp QMARK   &kp COMMA         
+           &kp F8      &kp F9     &kp F10     &kp F11   &kp F1        &kp DOT &kp SPACE      &kp EXCL &kp QMARK   &kp COMMA         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-            &kp  LA(TAB)    &mkp MCLK     &kp ESC    &mkp RCLK &kp F16        &kp Q   &kp F7      &kp P     &kp G    &kp LSHIFT
+            &kp  LA(TAB)    &mkp MCLK     &kp ESC    &mkp RCLK &kp F16  &kp F20     &kp F7      &kp P     &kp G    &kp LSHIFT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp SPACE   &lt 2 ENTER  &kp LSHIFT     &kp LSHIFT
+                                           &kp SPACE   &lt 2 ENTER  &kp LSHIFT    &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
