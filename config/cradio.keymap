@@ -82,13 +82,13 @@
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │aa
         //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19    
-          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &mkp LCLK    &kp L   &kp BSPC
+          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &kp E   &kp L   &kp BSPC
           
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp A      &kp S     &kp R      &kp T      &kp G          &kp M      &kp N    &kp E       &kp I     &kp O
+          &kp A      &kp S     &kp R      &kp T      &kp G          &kp M      &kp N      &mkp LCLK      &kp I     &kp O
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
