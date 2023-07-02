@@ -106,10 +106,10 @@
             bindings = <
               //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp LT   &kp GT    &kp PIPE       &kp F4      &kp F5            &kp F19 &kp F6 &mkp MCLK &kp F7      &kp F2 
+            &kp LT   &kp GT    &kp PIPE       &kp F4      &kp F5            &kp F19 &kp F6 &kp EXCL &kp F7      &kp F2 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-          &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp F10     &kp F11   &kp F1        &kp DOT &kp SPACE      &kp EXCL &kp QMARK   &kp COMMA         
+          &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp F10     &kp F11   &kp F1        &kp DOT &kp SPACE   &mkp MCLK    &kp QMARK   &kp COMMA         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &kp DQT     &kp ESC    &mkp RCLK &kp F16  &kp F20      &kp LPAR  &kp RPAR    &kp UNDER   &kp COLON
