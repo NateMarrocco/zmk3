@@ -106,10 +106,10 @@
             bindings = <
               //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬─────────╮
         //│  Q       │  W      │  F            P     │    K            J      │     L    │           │      Y  │   .     │
-            &kp LT   &kp GT    &kp PIPE       &kp F4      &kp F5            &kp F19 &kp F6 &kp EXCL &kp F7      &kp F2 
+            &kp LT   &kp GT    &kp PIPE       &kp F4      &kp F5            &kp F19 &kp F6 &kp SEMI  &kp F7      &kp F2 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼─────────┼──────────┤
         //│  A       │  S      │  R        │  T       │  G       │   │   M       │  N       │  E        │  I       │ O     │
-          &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp F10     &kp F11   &kp F1        &kp DOT &kp SEMI   &mkp MCLK    &kp QMARK   &kp COMMA         
+          &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp F10     &kp F11   &kp F1        &kp DOT &kp EXCL  &mkp MCLK    &kp QMARK   &kp COMMA         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &kp DQT     &kp ESC    &mkp RCLK &kp F16  &kp F20      &kp LPAR  &kp RPAR    &kp UNDER   &kp COLON
@@ -146,7 +146,7 @@
               &kp N6      &kp N7     &kp N8    &kp N9      &kp N0        &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp B     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
+             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp F3     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                           &kp DOT  &kp ESC 		&lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
