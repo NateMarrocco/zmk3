@@ -129,7 +129,7 @@
           &kp LPAR  &kp RPAR   &kp LBRC    &kp RBRC   &kp DQT     &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-            &kp BSLH     &kp CARET    &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
+            &kp BSLH     &kpbt BT_CLR   &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp COLON     &kp SEMI     &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -146,7 +146,7 @@
               &kp N6      &kp N7     &kp N8    &kp N9      &kp N0        &kp M         &kp N      &kp E       &kp I     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
-             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp F3     &kp H      &kp DOT   &kp RCTRL     &togglegameoff
+             &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp F3     &kp H      &kp DOT   &kp RCTRL     &bt BT_CLR
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                           &kp DOT  &kp ESC 		&lt 2 ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
