@@ -114,7 +114,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &kp DQT     &kp ESC    &mkp RCLK &kp F16  &kp F20      &kp LPAR  &kp RPAR    &kp UNDER   &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &bt SPACE   &lt 2 ENTER  &kp LSHIFT    &kp LSHIFT
+                                           &kp SPACE   &lt 2 ENTER  &kp LSHIFT    &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
