@@ -129,7 +129,7 @@
           &kp LPAR  &kp RPAR   &kp LBRC    &kp RBRC   &kp DQT     &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-            &kp BSLH     &kp CARROT   &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
+            &kp BSLH     &kp CARET   &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp COLON     &kp SEMI     &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
