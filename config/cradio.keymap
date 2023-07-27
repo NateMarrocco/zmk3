@@ -66,9 +66,9 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z   &lt 2 SPACE    
+         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &kp Z   &kp SPACE    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER          &kp F22 &lt 3 F23 
+                                     &kp SPACE &lt 1 ENTER          &kp F22 &kp F23 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -86,7 +86,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &kp DQT     &kp ESC    &mkp RCLK &kp F16  &kp F20      &kp LPAR  &kp RPAR    &kp UNDER   &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp SPACE   &lt 2 ENTER  &kp LSHIFT    &kp LSHIFT
+                                           &kp SPACE   &kp ENTER  &kp LSHIFT    &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -120,7 +120,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp F3     &kp H      &kp DOT   &kp RCTRL     &bt BT_CLR
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                          &kp DOT  &kp ESC 		&lt 2 ENTER    &kp SPACE   
+                                          &kp DOT  &kp ESC 		&kp ENTER    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
