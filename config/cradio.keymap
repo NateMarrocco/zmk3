@@ -68,7 +68,7 @@
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
          &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &lt 2 Z   &lt 3 SPACE    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER          &kp Z &kp F23 
+                                     &kp SPACE &kp DOT          &lt 1 ENTER &kp F23 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
