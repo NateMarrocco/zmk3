@@ -103,7 +103,7 @@
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
             &kp BSLH     &kp CARET   &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp COLON     &kp SEMI     &kp  LA(TAB)  &kp SEMI
+                                             &kp F17     &kp SEMI     &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
