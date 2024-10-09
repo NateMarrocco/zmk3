@@ -66,9 +66,9 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT       &kp X      &kp C      &kp D      &kp V           &kp B     &kp N      &kp M   &lt 2    &kp Z     
+         &kp LSHIFT       &kp X      &kp C      &kp D      &kp V           &kp B     &kp N      &kp M   &lt 2 SPACE   &kp Z     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &lt 3  &lt 1           &kp LCTRL &mkp LCLK 
+                                      &lt 3 SPACE  &lt 1 SPACE          &kp LCTRL &mkp LCLK 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
