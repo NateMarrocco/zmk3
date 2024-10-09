@@ -54,21 +54,21 @@
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │aa
         //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19    
-          &kp Q      &kp W      &kp F      &kp P     &kp K           &kp J      &kp U    &kp E   &kp L   &kp BSPC
+          &kp Y      &kp U     &kp I      &kp O     &kp P          &kp Q      &kp W    &kp E   &kp R   &kp T
           
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp A      &kp S     &kp R      &kp T      &kp G          &kp M      &kp N      &mkp LCLK      &kp I     &kp O
+          &kp H      &kp J     &kp K      &kp L      &kp SPACE          &kp A      &kp S      &kp D      &kp E     &kp G
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT        &kp X      &kp C      &kp D      &kp V           &kp B     &kp H      &kp Y   &lt 2 Z   &lt 3 SPACE    
+         &kp SHIFT       &kp X      &kp C      &kp D      &kp V           &kp B     &kp N      &kp M   &lt 2    &kp Z     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &kp SPACE &lt 1 ENTER          &kp LCTRL &kp F23 
+                                      &lt 3  &lt 1           &kp LCTRL &mkp LCLK 
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
