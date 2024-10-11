@@ -60,15 +60,15 @@
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp H      &kp J     &kp K      &kp L      &kp SPACE          &kp A      &kp S      &kp D      &kp E     &kp G
+          &kp H      &kp J     &kp K      &kp L      &kp SHIFT          &kp A      &kp S      &kp D      &kp F     &kp G
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp LSHIFT       &kp X      &kp C      &kp D      &kp V           &kp B     &kp N      &kp M   &lt 2 SPACE   &kp Z     
+         &kp M       &kp N      &kp ENTER      &kp BACKSPACE     &kp BACKSPACE           &kp Z     &kp X      &kp C   &lt 2 V   &kp B     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &lt 3 SPACE  &lt 1 SPACE          &kp LCTRL &mkp LCLK 
+                                      &lt 3 SPACE &mkp LCLK          &kp LCTRL &lt 1 SPACE
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
