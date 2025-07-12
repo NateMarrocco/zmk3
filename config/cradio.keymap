@@ -66,7 +66,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp M       &kp N      &kp ENTER      &kp BACKSPACE     &kp BACKSPACE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
+         &kp M       &kp N      &kp ENTER      &kp END     &kp TILDE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                       &lt 3 SPACE &mkp LCLK          &kp LCTRL &kp DEL
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
@@ -86,7 +86,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
             &kp  LA(TAB)    &kp DQT     &kp ESC    &mkp RCLK &kp F16  &kp F20    &kp PIPE   &kp F10       &kp UNDER   &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp SPACE   &kp ENTER  &kp LSHIFT    &kp LSHIFT
+                                           &kp SPACE   &kp LCTRL  &kp LSHIFT    &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
