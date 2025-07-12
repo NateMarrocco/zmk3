@@ -54,21 +54,21 @@
             bindings = <  //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │         │         │         │          │         │      │           │          │         │         │aa
         //   &kp LT     &kp GT     &kp AT    &kp LC(Z)   &kp LS(LC(F))     &kp F18     &mkp LCLK    &mkp MCLK   &kp F19    
-          &kp Y      &kp U     &kp I      &kp O     &kp P          &kp Q      &kp W    &kp E   &kp R   &kp T
+          &kp PG_UP      &kp LALT     &kp I      &kp O     &kp LGUI         &kp Q      &kp W    &kp E   &kp R   &kp T
           
         
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp H      &kp J     &kp K      &kp L      &kp LSHIFT          &kp A      &kp S      &kp D      &kp F     &kp G
+          &kp PG_DN      &kp HOME     &kp END      &kp L      &kp LSHIFT          &kp A      &kp S     &kp END     &kp F     &kp G
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp M       &kp N      &kp ENTER      &kp BACKSPACE     &kp BACKSPACE           &kp Z     &kp X      &kp C   &lt 2 V   &kp B     
+         &kp M       &kp N      &kp ENTER      &kp BACKSPACE     &kp BACKSPACE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &lt 3 SPACE &mkp LCLK          &kp LCTRL &lt 1 SPACE
+                                      &lt 3 SPACE &mkp LCLK          &kp LCTRL &kp DEL
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
 
             >;
@@ -101,7 +101,7 @@
           &kp F15  &kp F21   &kp LBRC    &kp RBRC  &kp PIPE      &kp DOT   &kp QMARK    &kp COMMA   &kp V  &kp D  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &      │        │         │  │       │          │
-            &kp BSLH     &kp CARET   &kp AMPS    &kp DLLR    &kp UNDER        &kp C  &kp X  &kp Z      &kp PIPE      &trans
+            &kp BSLH     &kp CARET   &kp AMPS    &kp DLLR    &kp UNDER        &kp LCTRL  &kp X  &kp Z      &kp PIPE      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp F17     &kp SEMI     &kp  LA(TAB)  &kp SEMI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
