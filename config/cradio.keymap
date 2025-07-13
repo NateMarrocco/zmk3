@@ -60,13 +60,13 @@
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp PG_DN      &kp HOME     &kp END      &kp L      &kp LSHIFT          &kp A      &kp S     &kp END     &kp F     &kp G
+          &kp PG_DN      &kp HOME     &kp ESC      &kp L      &kp LSHIFT          &kp A      &kp S     &kp END     &kp F     &kp G
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp M       &kp N      &kp KP_NUM      &kp END     &kp TILDE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
+         &kp M       &kp N      &kp KP_NUM      &kp TILDE     &kp PSCRN           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                       &lt 3 SPACE &mkp LCLK          &kp LCTRL &kp DEL
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
