@@ -66,7 +66,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          // &kp DQT &kp LCTRL   &kp ESC    &mkp RCLK &kp LC(F)      &kp LBRC  &kp RBRC     &kp F22     &kp F11   
-         &kp M       &kp N      &kp ENTER      &kp END     &kp TILDE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
+         &kp M       &kp N      &kp KP_NUM      &kp END     &kp TILDE           &kp Z     &kp X      &kp C   &kp TILDE    &kp B     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                       &lt 3 SPACE &mkp LCLK          &kp LCTRL &kp DEL
         //                                 ╰─────────────────╯   ╰──────────┴──────────╯
@@ -120,7 +120,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  B     │  H        │    U     │    Y    │ P      │
              &kp PLUS &kp MINUS  &kp SLASH  &kp STAR   &kp EQUAL        &kp F3     &kp H      &kp DOT   &kp RCTRL     &bt BT_CLR
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                          &kp DOT  &kp ESC 		&kp ENTER    &kp SPACE   
+                                          &kp DOT  &kp ESC 		&kp LCTRL    &kp SPACE   
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
