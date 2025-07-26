@@ -60,7 +60,7 @@
         //├──────────┼──────────┼──────────┼──────────┼>──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │         │
      //    &kp LPAR   &kp RPAR    &kp F9   &kp LC(C)  &kp LC(V)      &kp N0      &kp N  F17     &trans   &kp F20   &kp UNDER
-          &kp PG_DN      &kp HOME     &kp ESC      &kp L      &kp LSHIFT          &kp A      &kp S     &kp END     &kp F     &kp G
+          &kp SPACE      &kp HOME     &kp ESC      &kp L      &kp LSHIFT          &kp A      &kp S     &kp END     &kp F     &kp G
 
                   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
